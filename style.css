@@ -31,11 +31,6 @@ nav {
     transition: .3s;
 }
 
-.logo:hover {
-    font-size: 3rem;
-    transition: .3s;
-}
-
 
 .nav-links {
     display: none;

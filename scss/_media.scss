@@ -1,0 +1,40 @@
+@media screen and (min-width: 1280px) {
+    .mobil-menu {
+        display: none;
+    }
+    .desktop-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        margin: 20px;
+        * {
+            padding: 0;
+        }
+        ul {
+            li {
+                text-align: center;
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    margin: 1rem;
+                    &:hover {
+                        border-bottom: 2px solid #fff;
+                    }
+                }
+            }
+        }   
+    }
+}
+
+//product
+#catalogo {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    .product {
+        margin: 10px;
+        padding: 5px;
+    }
+}

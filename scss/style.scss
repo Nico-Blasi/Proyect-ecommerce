@@ -1,0 +1,19 @@
+@import "nav";
+@import "home";
+@import "product";
+@import "media";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #a9d9ca;
+}
